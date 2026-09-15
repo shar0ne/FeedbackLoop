@@ -9,7 +9,6 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   
   usePathUrlStrategy();
